@@ -906,8 +906,9 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
             writable: false,
             configurable: false
         });
-This paste expires in <1 hour. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
+
 </script>
+
 <script>
     // Get the modal
     var modal = document.getElementById('myModal');
