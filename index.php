@@ -44,24 +44,10 @@
                 return results[1];
         }
         var phone = getVariableFromURl('phone');
-      //  var phone_number = phone + ' (Toll Free)';
+        var phone_number = phone;
       //  var phone_number2 = phone + ' (Toll Free)';
     </script>
-<script type="text/javascript">
-        var phone_number = '';
 
-	<?php
-	if ($_REQUEST['phone']=='es919'){	
-	?>
-		phone_number = '919-610-587';
-	<?php
-	elseif ($_REQUEST['phone']=='es910'){
-	?>
-		phone_number = '910-971-803';
-	<?php
-	}
-	?>
-</script>
 
 
 <script>
