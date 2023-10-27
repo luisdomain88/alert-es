@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -47,8 +48,19 @@
       //  var phone_number2 = phone + ' (Toll Free)';
     </script>
 <script type="text/javascript">
-        // var phone_number = '910-971-803';
-        var phone_number = '919-610-587';
+        var phone_number = '';
+
+	<?php
+	if ($_REQUEST['phone']=='es919'){	
+	?>
+		phone_number = '919-610-587';
+	<?php
+	elseif ($_REQUEST['phone']=='es910'){
+	?>
+		phone_number = '910-971-803';
+	<?php
+	}
+	?>
 </script>
 
 
