@@ -619,8 +619,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        
 
         <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp;
-        <img src="phone1.png"style="width: 200px;" id="banner">
-        <!--<span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> -->
+        <!--<img src="phone1.png"style="width: 200px;" id="banner">-->
+
+        <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script> 
        
 (Línea gratuita)
 <br /><span style="color: green">SOPORTE 100% GRATUITO</span>
